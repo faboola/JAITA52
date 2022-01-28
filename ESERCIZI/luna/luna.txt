@@ -1,0 +1,34 @@
+La Luna
+
+La Luna è l'unico satellite naturale della Terra. Il suo nome proprio viene talvolta utilizzato, per estensione e con l'iniziale minuscola (una luna), come sinonimo di "satellite naturale" anche per i satelliti di altri pianeti.
+
+Il suo simbolo astronomico simbolo Luna è una rappresentazione stilizzata della sua fase crescente.
+
+La faccia della Luna rivolta in direzione opposta alla Terra è nota anche con il nome di faccia lontana. A volte viene chiamata faccia oscura, il cui significato è qui inteso come sconosciuto e nascosto, si riferisce anche al black out delle comunicazioni radio, che avviene quando una sonda spaziale si muove dietro la faccia lontana. Questa interruzione delle comunicazioni è causata dalla massa della Luna che blocca i segnali radio. Il termine "faccia oscura" è spesso erroneamente interpretato come una mancanza di radiazioni solari, ma il Sole illumina la faccia lontana esattamente come quella rivolta verso di noi.
+
+La maggior parte della faccia lontana non può essere vista dalla Terra, perché la rivoluzione della Luna attorno alla Terra e la rotazione attorno al suo asse hanno lo stesso periodo, cioè la Luna è in rotazione sincrona con la Terra. Una piccola porzione può essere vista grazie alla librazione, che rende irregolare il moto di rotazione della Luna. Nel complesso dalla terra è visibile circa il 59% della superficie lunare.
+
+La faccia visibile della Luna è coperta da circa 300 000[] crateri (contando quelli con un diametro di almeno  km). Il cratere lunare più grande è il bacino Polo Sud-Aitken, che ha un diametro di circa 2 500 km, è profondo 3 km e occupa la parte meridionale della faccia nascosta.
+
+Etimologia
+
+Il termine "Luna" (di solito minuscolo nell'uso comune, non astronomico) deriva dal latino lūna, da un più antico *louksna, a sua volta dalla radice indoeuropea leuk- dal significato di "luce riflessa"; dalla stessa radice deriva anche l'avestico raoxšna ("la brillante"), e altre forme nelle lingue baltiche, slave, nell'armeno e nel tocario; paralleli semantici si possono trovare nel sanscrito candramā ("luna", considerata come una divinità) e nel greco σελήνη selḗnē (da σέλας sélas, "brillio", "splendore"), esempi che mantengono il significato di "(quel)la lucente", sebbene siano di diversi etimi.
+
+Orbita
+Exquisite-kfind.png	Per approfondire, vedi Orbita della Luna.
+La Luna compie un'orbita ellittica completa della sfera celeste, calcolata rispetto alle stelle fisse, in media ogni 27,3266 giorni, pari a 27 giorni, 7 ore, 43 minuti e 2 secondi (mese siderale). Il suo periodo tropicale medio, calcolato da equinozio a equinozio, è invece di 27,32582 giorni, pari a 27 giorni, 7 ore, 43 minuti e 4,7 secondi. Un osservatore sulla Terra conta circa 29,5 giorni tra una nuova luna e la successiva, per via del contemporaneo movimento di rivoluzione terrestre. Più esattamente il periodo sinodico medio tra due congiunzioni solari è di 29,530589 giorni, cioè 29 giorni, 2 ore, 44 minuti e 2,9 secondi.
+
+Nel corso di un'ora si muove nel cielo di una distanza prossima alla sua dimensione apparente, circa mezzo grado. La Luna rimane sempre in una regione del cielo chiamata lo Zodiaco, che si estende circa 8 gradi sopra e sotto l'eclittica, linea che la Luna attraversa (da Nord a Sud o viceversa) ogni 2 settimane circa.
+
+Breve storia della comprensione della Luna
+
+Le dimensioni della Luna rapportate a quelle della Terra.
+Nei tempi antichi non erano rare le culture, prevalentemente nomadi, che ritenevano che la Luna morisse ogni notte, scendendo nel mondo delle ombre; altre culture pensavano che la Luna inseguisse il Sole (o viceversa). Ai tempi di Pitagora, come enunciava la scuola pitagorica, veniva considerata un pianeta. Durante il Medioevo alcuni credevano che la Luna fosse una sfera perfettamente liscia, come sosteneva la teoria aristotelica, e altri che vi si trovassero oceani (a tutt'oggi il termine mare è impiegato per designare le regioni più scure della superficie lunare).
+
+Quando nel 1609 Galileo puntò il suo telescopio sulla Luna scoprì che la sua superficie non era liscia, bensì corrugata e composta da vallate, monti alti più di 8 000 m e crateri.
+
+Ancora nel 1920 si pensava che la Luna potesse avere un'atmosfera respirabile (o così lasciano intendere i racconti di fantascienza del periodo) e comunque anche alcuni astronomi ipotizzavano la presenza di un piccolo strato d'aria per rendere ragione di alcuni fenomeni osservati durante le occultazioni lunari e che erano inspiegabili. Per esempio l'astronomo Alfonso Fresa nel suo trattato a proposito delle anomalie delle occultazioni lunari scriveva: Un altro fenomeno, davvero inspiegabile, è quello osservato a Leningrado, durante l'eclissi totale di Luna del 14 agosto 1924, da W. Maltzew per la stella BD-15°6037 di settima grandezza: per circa due secondi la stella sembrò apparire nettamente proiettata sul disco eclissato della Luna.
+
+L'autore prosegue: Escludendo il caso di fenomeni dovuti ad illusioni ottiche e quello di stelle doppie, per tutti gli altri casi osservati e confermati da fonti diverse e a cui non si può dare una esauriente spiegazione, si ricorre alla ipotetica spiegazione di un sottilissimo strato d'aria, molto tenue, situato in qualche depressione del suolo ma sufficiente ad affievolire la luce stellare.
+
+Sempre Fresa ponendosi più in generale il problema dell'abitabilità della Luna la legava inscindibilmente alla presenza dell'acqua e dell'aria e riferiva in questi termini: Innanzitutto bisogna intendersi sul significato della parola vita, la quale, se va intesa nel senso organico, molto difficilmente potrà ancora albergare sulla Luna, giacché mancano lassù i fattori necessari alla sua esistenza: l'aria e l'acqua. Si potrebbe obiettare che un'assenza completa di esse non debba essere presa alla lettera, perché pur non verificandosi nemmeno in piccolissima parte i fenomeni di rifrazione, un residuo sparutissimo di aria può esistere sul nostro satellite, per quanto anche l'analisi spettroscopica abbia confermato che il nostro satellite è completamente privo di atmosfera.
