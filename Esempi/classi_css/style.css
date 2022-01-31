@@ -1,0 +1,48 @@
+body {
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* ^^ imposto un font diverso, uso i font di sistema ^^ */
+
+    background: #1f1f1f; /* colore dello sfondo */
+
+    color: #c1c1c1; /*colore del testo*/
+    text-align: left; /*questo è comunque il default del browser!*/
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#mainTitle {
+    text-align: center;
+    font-size: 100px; /*questa regola vince sul selettore H1 perché più specifica */
+}
+
+h2 { /*tutti gli H2! */
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    font-style: italic; /*font style può essere normal, italic */
+
+    font-weight: normal; /*font-weight può essere bold, normal o un valore numerico*/
+                         /* definisce lo spessore del carattere */           
+  }
+
+  img { /*tutte le immagini!*/
+    border: 10px solid #c1c1c1; /*proprietà shorthand */
+    /* spessore bordo | tipo bordo | colore bordo */
+
+
+  }
+
+
+.intro { /*il selettore di tipo CLASSE inizia sempre con il punto . */
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
