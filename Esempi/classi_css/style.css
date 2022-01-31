@@ -34,6 +34,9 @@ h3 {
 img { /*tutte le immagini!*/
     border: 10px solid #c1c1c1; /*proprietà shorthand */
     /* spessore bordo | tipo bordo | colore bordo */
+
+   display: block;
+   margin-left: auto;
   }
 
 
@@ -41,6 +44,11 @@ img { /*tutte le immagini!*/
     font-size: 20px;
     font-style: italic;
 }
+
+.evidenziato {
+    background: #e11bba;
+}
+
 
 
 
