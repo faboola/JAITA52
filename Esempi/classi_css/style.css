@@ -31,11 +31,9 @@ h3 {
                          /* definisce lo spessore del carattere */           
   }
 
-  img { /*tutte le immagini!*/
+img { /*tutte le immagini!*/
     border: 10px solid #c1c1c1; /*proprietà shorthand */
     /* spessore bordo | tipo bordo | colore bordo */
-
-
   }
 
 
