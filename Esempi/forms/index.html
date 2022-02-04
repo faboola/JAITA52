@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form di iscrizione</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -198,12 +199,81 @@ Textarea con messaggio/note -->
     </div>
 
 
+    <div>
 
-    <input type="submit" value="Invia i dati">
+        <input type="checkbox" name="strumento" id="pianoforte" value="pianoforte">
+        <label for="pianoforte">Pianoforte</label>
+
+        <input type="checkbox" name="strumento" id="chitarra" value="chitarra">
+        <label for="chitarra">Chitarra</label>
+
+        <input type="checkbox" name="strumento" id="batteria" value="batteria">
+        <label for="batteria">Batteria</label>
+
+        <input type="checkbox" name="strumento" id="basso" value="basso">
+        <label for="basso">Basso</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="privacy" id="privacy_ID" value="1" required>
+        <label for="privacy_ID">Accetto la privacy policy</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="newsletter" id="newsletter_ID" value="1">
+        <label for="newsletter_ID">Iscrivimi alla newsletter</label>
+    </div>
+
+    <div>
+        <textarea name="note" id="note_ID" cols="80" rows="20" maxlength="20"></textarea>
+    </div>
+
+    <!--
+    <input type="submit" value="Invia i dati"> 
+    <input type="reset" value="Cancella dati"> 
+    posso usare BUTTON in alternativa a INPUT TYPE="SUBMIT" e "RESET"-->
 
 
+  
+    
+    <button type="submit" id="submitForm">Invia i dati</button>
+    <button type="reset" id="resetForm">Cancella tutto</button>
 
 </form>    
+
+<hr>
+
+<h2>Altri tipi di campi</h2>
+
+<form action="#" >
+
+    <div>
+    <input type="color" id="color" name="color">
+</div>
+
+    <div><input type="file" id="file" name="file"></div>
+
+    <div>
+        <input type="number" id="number" name="number" min="0" max="50" step="10">
+    </div>
+
+    <div>
+        <input type="range" id="range" name="range" min="0" max="100">
+    </div>
+
+    <div>
+        <input type="url" id="url" name="url">
+    </div>
+
+    
+    <input type="text" id="soloNumeri" name="soloNumeri" pattern="[0-9]*">
+
+     
+    <button type="submit">Invia i dati</button>
+    <button type="reset" >Cancella tutto</button>
+
+
+</form>
     
 </body>
 </html>

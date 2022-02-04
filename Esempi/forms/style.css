@@ -1,0 +1,23 @@
+textarea {
+    resize:none;
+}
+
+div {
+    margin-bottom: 1rem;
+}
+
+#submitForm {
+    background:rgb(98, 187, 34);
+    color:#efefef;
+    border-radius:5px;
+    padding:10px;
+}
+
+#resetForm {
+    background:#ff0000;
+    color:#efefef;
+    border-radius:5px;
+    padding:10px;
+
+}
+
