@@ -21,6 +21,7 @@ h1 {
 
 h2 { /*tutti gli H2! */
     font-size: 40px;
+    font-family: 'Star Jedi';
 }
 
 h3 {
@@ -35,8 +36,6 @@ img { /*tutte le immagini!*/
     border: 10px solid #c1c1c1; /*proprietà shorthand */
     /* spessore bordo | tipo bordo | colore bordo */
 
-   display: block;
-   margin-left: auto;
   }
 
 
@@ -47,6 +46,7 @@ img { /*tutte le immagini!*/
 
 .evidenziato {
     background: #e11bba;
+    color:white;
 }
 
 
