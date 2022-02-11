@@ -11,23 +11,97 @@ body {
     background:#999;
     font-family: 'Inter', sans-serif;
     /*vedi HEAD di HTML: dobbiamo prima includere il link ai Google Fonts!*/
+
+    /*sfondo full screen*/
+    background-image:url('sfondo.jpg'); /*url all'immagine di sfondo*/
+    background-repeat: no-repeat; /*non voglio che l'immagine si ripeta tipo tiling*/
+    background-size: cover; /*allarga l'immagine per coprire tutto lo spazio*/
+    background-position: center center; /*posiziono al centro in verticale e orizzontale*/
+    background-attachment: fixed; /*lo sfondo NON SCORRE con il body*/
+}
+
+img {
+    max-width:100%; /*la dimensione MASSIMA dell'immagine sarà del 100%*/
+    /*però l'immagine non si allargherà mai oltre la sua dimensione effettiva*/
+    height: auto;
 }
 
 blockquote {
     /*blocco per la citazione con font diverso*/
     font-family: 'Cardo',serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
 }
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
 .container {
     width:70%;
     margin:auto; /*centrato sulla pagina*/
 
     background: #fefefe;
    
-    padding:6rem 3rem;
+    padding:3rem;
     /*primo valore: sopra e sotto. Secondo valore: sinistra/destra
     equivale a:
     padding-left:3rem;
     padding-right: 3rem;*/
-
     
+}
+
+.banner {
+    margin-bottom: 3rem;
+}
+
+.featuredImage {
+    width: 8rem;
+    border:1px solid #666;
+
+    float:left; /*dispongo l'immagine a sinistra e avvolgo il testo attorno*/
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.consigliBox {
+    background-color: rgb(247, 189, 0);
+    padding:1rem;
+}
+
+.boxTitle {
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-bottom:1px solid #333;
+}
+
+.introduzione img {
+    /*tutti i tag IMG all'interno del div con classe 'introduzione'*/
+
+    border-radius: 50%;
+}
+
+blockquote .firma {
+    /*tutti gli elementi con classe 'firma' all'interno dei tag BLOCKQUOTE*/
+
+    font-family: 'Inter';
+    margin-top: 1rem;
+    text-align: right;
+    font-size: 1rem; /*riporto il font a 1rem*/
+} 
+.indice {
+    padding:0;
+    list-style-position: inside; /*sposto la lista in linea con il contenitore*/
+   
+}
+.indice a {
+    /*tutti i link dentro l'elemento con classe 'indice'*/
+    text-decoration: none; /*tolgo il sottolineato*/
 }
