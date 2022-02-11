@@ -1,0 +1,33 @@
+
+* {
+   /*selettore UNIVERSALE (TUTTI gli elementi sulla pagina)*/
+   box-sizing: border-box;  /*imposto il box model BORDER-BOX per tutti gli elementi*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background:#999;
+    font-family: 'Inter', sans-serif;
+    /*vedi HEAD di HTML: dobbiamo prima includere il link ai Google Fonts!*/
+}
+
+blockquote {
+    /*blocco per la citazione con font diverso*/
+    font-family: 'Cardo',serif;
+}
+.container {
+    width:70%;
+    margin:auto; /*centrato sulla pagina*/
+
+    background: #fefefe;
+   
+    padding:6rem 3rem;
+    /*primo valore: sopra e sotto. Secondo valore: sinistra/destra
+    equivale a:
+    padding-left:3rem;
+    padding-right: 3rem;*/
+
+    
+}
