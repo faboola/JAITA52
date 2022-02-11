@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.contenitore {
+
+    background: #999;
+    width: 80%;
+
+}
+
+.verde {
+    background:green;
+
+    width: 50%;
+    
+    height: 400px;
+}
+
+.giallo {
+    background: yellow;
+    width: 50%;
+    height: 200px;
+}
+
+.arancio {
+    background: #ffcc00;
+    width:4rem;
+}
+
+h1 {
+    /*REM è relativo alla dimensione base del font */
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+p.genitore {
+    font-size: 50px;
+}
+
+span.figlio {
+    /*em è relativo alla dimensione carattere del GENITORE*/
+    font-size: 50%;
+}
+
+
+.spazio {
+    margin-top: 20rem;
+    margin-bottom: 30rem;
+}
+
+.father {
+    width:600px;
+    background:#999;
+
+}
+
+.son {
+    width:300px;
+    float:left;
+    height:300px;
+}
+
+#luca {
+    background: green;
+}
+
+#giuseppe {
+    background: yellow;
+    border:5px solid blue;
+    padding:5px;
+    
+}
+
+
