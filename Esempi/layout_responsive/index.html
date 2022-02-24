@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Layout Responsive | Coffee </title>
 </head>
 <body>
-<header>
+<header id="mainHeader" class="wMargin">
     <div class="logo">
         <img src="logo.svg" alt="">
     </div>
@@ -21,11 +26,12 @@
             <li><a href="#">Lorem</a></li>
         </ul>
     </nav>
+</header>
     <main>
         <div id="hero">
-            <img src="https://source.unsplash.com/1600x800/?coffee+beans" alt="">
+            <img src="https://source.unsplash.com/1600x800/?coffee+cup" alt="">
         </div>
-        <div id="news">
+        <div id="news" class="wMargin">
             <div class="newsBox">
                 <img src="https://source.unsplash.com/400x300/?coffee+machine" alt="">
                 <h2>Lorem, ipsum dolor.</h2>
@@ -34,54 +40,91 @@
             </div>
 
             <div class="newsBox">
-                <img src="https://source.unsplash.com/400x300/?coffee+machine" alt="">
+                <img src="https://source.unsplash.com/400x300/?coffee+cup" alt="">
                 <h2>Lorem, ipsum dolor.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ab nisi saepe sapiente quae quos quibusdam, illum libero a aut?</p>
                 <a href="#" class="button">Read more</a>
             </div>
 
             <div class="newsBox">
-                <img src="https://source.unsplash.com/400x300/?coffee+machine" alt="">
+                <img src="https://source.unsplash.com/400x300/?coffee+pot" alt="">
                 <h2>Lorem, ipsum dolor.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ab nisi saepe sapiente quae quos quibusdam, illum libero a aut?</p>
                 <a href="#" class="button">Read more</a>
             </div>
         </div>
-        <div id="servizi">
+
+        <div id="servizi" class="wMargin">
             <div class="serviziBox">
-                <div class="serviziIcon"></div>
+                <div class="serviziIcon"><i class="fa-solid fa-cookie"></i></div>
                 <div class="serviziText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum?</div>
             </div>
 
             <div class="serviziBox">
-                <div class="serviziIcon"></div>
+                <div class="serviziIcon"><i class="fa-solid fa-carrot"></i></div>
                 <div class="serviziText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum?</div>
             </div>
 
             <div class="serviziBox">
-                <div class="serviziIcon"></div>
+                <div class="serviziIcon"><i class="fa-solid fa-mug-hot"></i></div>
                 <div class="serviziText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum?</div>
             </div>
 
             <div class="serviziBox">
-                <div class="serviziIcon"></div>
+                <div class="serviziIcon"><i class="fa-solid fa-blender"></i></div>
                 <div class="serviziText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum?</div>
             </div>
 
             <div class="serviziBox">
-                <div class="serviziIcon"></div>
+                <div class="serviziIcon"><i class="fa-solid fa-seedling"></i></div>
                 <div class="serviziText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum?</div>
             </div>
 
             <div class="serviziBox">
-                <div class="serviziIcon"></div>
+                <div class="serviziIcon"><i class="fa-solid fa-bacon"></i></div>
                 <div class="serviziText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum?</div>
             </div>
         </div>
-        
-        <div id="gallery"></div>
+
+        <div id="gallery" class="wMargin">
+
+            <div class="galleryItem">
+                <img src="https://source.unsplash.com/400x400/?coffee+pot" alt="">
+                <div class="caption">Lorem ipsum dolor sit.</div>
+            </div> 
+
+            <div class="galleryItem">
+                <img src="https://source.unsplash.com/400x400/?breakfast" alt="">
+            </div> 
+
+            <div class="galleryItem">
+                <img src="https://source.unsplash.com/400x400/?croissant" alt="">
+            </div> 
+
+            <div class="galleryItem">
+                <img src="https://source.unsplash.com/400x400/?pancakes" alt="">
+            </div> 
+
+            <div class="galleryItem">
+                <img src="https://source.unsplash.com/400x400/?diner" alt="">
+            </div> 
+
+            <div class="galleryItem">
+                <img src="https://source.unsplash.com/400x400/?coffee+beans" alt="">
+            </div> 
+
+            <div class="galleryItem">
+                <img src="https://source.unsplash.com/400x400/?coffee+mug" alt="">
+            </div> 
+
+            <div class="galleryItem">
+                <img src="https://source.unsplash.com/400x400/?cookies" alt="">
+            </div> 
+
+        </div>
+
     </main>
-    <footer></footer>
-</header>
+    <footer>Lorem ipsum dolor sit.</footer>
+
 </body>
 </html>

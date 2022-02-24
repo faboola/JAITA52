@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background:rgb(246, 246, 246);
+    color:#322828;
+}
+
+img {
+    width:100%;
+    height:auto;
+}
+
+.wMargin {
+    /*classe per impostare un margine dal bordo della finestra*/
+    width: 92%;
+    margin:0 auto;
+}
+
+#mainHeader {
+    display: flex;
+    align-items: center; /*allineamento in verticale*/
+    justify-content: space-between; /*disporre gli elementi agli estremi orizzontali*/
+
+    padding:1rem 0;
+
+   
+}
+
+.logo img {
+    width:5rem;
+    height: auto;
+}
+
+/* MENU */
+
+.mainNav ul { /*UL dentro #mainNav*/
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+
+}
+
+.mainNav li {
+    padding:0.25rem 1.5rem; /*il primo valore è sopra+sotto il secondo è sinistra+destra*/
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                    NEWS                                    */
+/* -------------------------------------------------------------------------- */
+
+
+#news {
+    display: flex;
+    flex-wrap: wrap; /*serve per mandare a capo gli elementi quando finisce lo spazio nel container*/
+
+   padding:4rem 0;
+    
+}
+
+.newsBox {
+    width: 100%;
+}
+
+/*SERVIZI*/
+
+#servizi {
+    padding-top: 4rem; /*equivale allo shorthand sopra: padding:4rem 0 */
+    padding-bottom: 4rem;
+
+   
+}
+
+.serviziBox {
+    text-align: center;
+    margin-bottom: 3rem;
+} 
+
+.serviziIcon {
+    font-size: 8rem;
+}
+
+.serviziText {
+    font-size: 1.5rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   GALLERY                                  */
+/* -------------------------------------------------------------------------- */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryItem {
+    width:50%;
+   
+
+    position: relative;
+}
+
+.caption {
+   
+   
+
+    position:absolute;
+    bottom:0;
+    color: #efefef;
+    background:rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding:0.2rem;
+
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
+
+footer {
+    text-align: center;
+    background:#322828;
+    color:#efefef;
+    padding:2rem 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                  MEDIA QUERY PER SCHERMI SUPERIORI A 992px                 */
+/* -------------------------------------------------------------------------- */
+
+@media (min-width:992px) {
+
+    .wMargin {
+        width: 70%;
+        /*posso anche omettere margin:0 auto perché lo eredita dalla regola precedente */
+    }
+    
+    .newsBox {
+        width: 33%;
+    }
+
+    #servizi {
+        display: flex;
+        flex-wrap: wrap; /*vai a capo quando esaurisci lo spazio! */
+        
+    }
+
+    .serviziBox {
+        width: 50%;
+        display: flex; /*fai affiancare i tuoi figli: serviziIcon e serviziText*/
+        align-items: center; /*allinea i figli in verticale al centro*/
+
+    }
+
+    .serviziText {
+        text-align: left; /*Sovrascrivo la regola precedente che era text-align: center.*/
+        padding-left: 2rem; /*da 992px in su il testo è affiancato all'icona quindi mi serve un padding a sinistra*/
+    }
+
+    .galleryItem {
+        width: 25%;
+    }
+    
+}
+
+
