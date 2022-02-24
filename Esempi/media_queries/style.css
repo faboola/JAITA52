@@ -1,0 +1,28 @@
+* {
+    /*faccio un reset rapido del foglio di stile del browser*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*regole che valgono per tutto il CSS salvo override delle media queries*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border:1px solid red;
+    width:100%;
+}
+
+@media (min-width: 992px) {
+    /*regole che valgono a partire da 992px*/
+
+    .box {
+        /*la regola BORDER viene ereditata dalla regola alla riga 13*/
+        width: 25%; /*sovrascrivo la regola alla riga 15*/
+        background:#ffcc00; 
+    }
+
+}
+
