@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    /*imposto il box model per gestire meglio margin e padding*/
+    /*(non servirà più su Bootstrap*/
 }
 
 body {
@@ -205,8 +207,6 @@ blockquote::before {
 }
 
 .caption {
-   
-  
 
     position:absolute;
     bottom:0;
