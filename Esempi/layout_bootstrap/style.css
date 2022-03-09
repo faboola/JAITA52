@@ -1,0 +1,43 @@
+/* OVERRIDE COLORI BOOTSTRAP  */
+.btn-primary {
+    background-color:#00B5E5;
+    border-color: #00B5E5;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    /*sovrascrivo i colori dei pulsanti  al passaggio del mouse*/
+    background-color:#006b89;
+    border-color: #006b89;
+
+}
+
+.nav-link:hover {
+    color:#006b89;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.nav-link {
+    color:#00B5E5;
+}
+
+.swiper {
+  padding-bottom: 3rem;
+}
+.swiper-slide img {
+    width: 100%;
+    height:auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width:1rem;
+    height:1rem;
+}
+
+
+.serviziImg img {
+    width: 100%;
+    height: auto;
+}
