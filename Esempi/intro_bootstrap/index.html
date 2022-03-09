@@ -14,13 +14,13 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -59,7 +59,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, excepturi? Reiciendis hic incidunt deleniti iste, voluptatibus provident ad animi, praesentium harum facilis laboriosam corporis inventore quas beatae ut quis? Consectetur.</p>
 
                 <div class="row">
-                    <div class="col-md-8">Column 1</div>
+                    <div class="col-md-8 mb-5 mb-lg-1">Column 1</div>
                     <div class="col-md-4">Column 2</div>
                 </div>
             </div>
@@ -99,6 +99,45 @@
             </div>
         </div>
 
+      </div>
+
+      <div class="container">
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginForm">
+    Login
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="loginForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- LOGIN FORM -->
+          <form action="#">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" name="username" class="form-control" id="username" placeholder="il tuo username">
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" name="passwrod" class="form-control" id="password" placeholder="la tua password">
+              </div>
+
+              <div class="mb-3">
+                  <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+
+          </form>
+        </div>
+      
+      </div>
+    </div>
+  </div>
       </div>
 
 
