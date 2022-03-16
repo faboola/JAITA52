@@ -41,3 +41,22 @@
     width: 100%;
     height: auto;
 }
+
+#imageSpacer {
+    height:30rem; /*è un DIV vuoto, allora forzo un'altezza per mostrarlo sulla pagina*/
+    background: url('https://source.unsplash.com/1920x600/?mainboard');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+#mainFooter {
+    background:#00B5E5;
+    color:#efefef;
+}
+
+
+
