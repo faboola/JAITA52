@@ -21,8 +21,65 @@
     
 <div id="header">
 
-    <nav class="navbar navbar-expand-lg">
-        <!-- ho eliminato le classi bg- e light/dark dalla navbar per modificare più facilmente i colori -->
+
+  <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+    <div class="container-lg">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="logo_comp.png" alt="Computer Shop">
+    </a>
+
+
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+  
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Switch account</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginForm">
+                Login
+              </button>
+          </li>
+
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#carrello" aria-controls="offcanvasExample">
+              <i class="bi bi-cart"></i>
+            </button>
+          </li>
+          
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  
+
+
+
+  <!-- ho eliminato le classi bg- e light/dark dalla navbar per modificare più facilmente i colori -->
+    <!-- <nav class="navbar navbar-expand-lg">
         <div class="container-lg">
           <a class="navbar-brand" href="#">
               <img class="logo" src="logo_comp.png" alt="Computer Shop">
@@ -55,12 +112,18 @@
                     Login
                   </button>
               </li>
+
+              <li class="nav-item ms-lg-3">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#carrello" aria-controls="offcanvasExample">
+                  <i class="bi bi-cart"></i>
+                </button>
+              </li>
               
             </ul>
            
           </div>
         </div>
-      </nav>
+      </nav> -->
 </div>
 
 <div id="hero">
@@ -262,6 +325,18 @@
   </div>
   <!-- END MODAL -->
 
+  <!-- OFF-CANVAS -->
+  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="carrello" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <div id="offcanvasRightLabel">Carrello</div>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      CONTENUTO DEL OFF-CANVAS
+    </div>
+  </div>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -313,6 +388,20 @@
     el: '.swiper-scrollbar',
   },
 });
+</script>
+
+<script>
+  //gestione off-canvas
+  (function () {
+  'use strict'
+
+  document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
+  document.querySelector('.offcanvas-collapse').classList.toggle('open')
+  })
+})()
+
+
+
 </script>
 
 </body>
